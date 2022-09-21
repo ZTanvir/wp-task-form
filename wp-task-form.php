@@ -1,7 +1,7 @@
 <?php
 
 /*
- * Theme Name: Task Form
+ * Plugin Name: Task Form
  * */
 
 include "shortcode.php";
