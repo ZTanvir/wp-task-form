@@ -7,4 +7,3 @@
 include "shortcode.php";
 include "form.php";
 include "submit.php";
-include "mail-admin.php";
