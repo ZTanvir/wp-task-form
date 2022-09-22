@@ -1,11 +1,13 @@
 
 
 jQuery(function($){
-    $('.task-form-btn').submit(function(event) {   
+    $('.task-form').submit(function(event) {
       event.preventDefault();
-      console.log('hiiii');
-       var title = $("input[name = 'task-title']").val();
-       var description = $("input[name = 'task-description']").val();
+
+       const title = $("input[name = 'task-title']").val();
+       const description = $("input[name = 'task-description']").val();
+       console.log(title, description);
+
         $.ajax ({
             method : 'POST',
             url : '<?php echo get_rest_url(null,null);?>',

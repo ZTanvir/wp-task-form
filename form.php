@@ -22,12 +22,12 @@ function load_task_form(){
         <div class="form-body">
             <div class="form-group">
                 <label class="input-label" for="task-title">Title</label>
-                <input type="text" name="task-title" placeholder="Enter Task Title" required/>
+                <input type="text" name="task-title" placeholder="Enter Task Title" required />
             </div>
             
             <div class="form-group">
                 <label class="input-label" for="task-description">Description</label>
-                <textarea type="text" rows="5" name="task-description" placeholder="Enter Task Description" required></textarea>
+                <input class="task-description" type="text" name="task-description" placeholder="Enter Task Description" required />
             </div>
         </div>
         <button type="submit" class="task-form-btn">Create Task</button>

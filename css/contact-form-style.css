@@ -32,8 +32,7 @@
     font-weight: 400;
     color: #0d1b2a;
 }
-.form-group input,
-.form-group textarea{
+.form-group input{
     padding: 10px;
     font-size: 15px;
     background: none;
@@ -41,6 +40,9 @@
     border: 1px solid #ff4d6d;
     border-radius: 8px;
     outline: none;
+}
+.form-group .task-description{
+
 }
 .task-form-btn{
     margin: 10px 0;
