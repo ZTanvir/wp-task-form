@@ -27,4 +27,4 @@ Project is created with:
 
 ## Setup
 
-To run this project first download the folder or clone the folder with git clone.Copy the folder to wordpress/wp-content/plugins.From wordpress turn on the Task Manager plugin.
+To run this project first download the folder or clone the folder with git clone.Copy the folder to wordpress/wp-content/plugins.From wordpress turn on the Task Form plugin.
