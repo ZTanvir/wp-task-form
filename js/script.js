@@ -10,7 +10,7 @@ jQuery(function($){
 
         $.ajax ({
             method : 'POST',
-            url : '<?php echo get_rest_url(null,null);?>',
+            url : 'http://localhost/wordpress/wp-json/form/v1/submit',
             data: {title:title,  description: description}
        })
      });
