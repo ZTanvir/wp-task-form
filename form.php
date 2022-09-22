@@ -27,7 +27,7 @@ function load_task_form(){
             
             <div class="form-group">
                 <label class="input-label" for="task-description">Description</label>
-                <input class="task-description" type="text" name="task-description" placeholder="Enter Task Description" required />
+                <input class="task-description" name="task-description" placeholder="Enter Task Description" required />
             </div>
         </div>
         <button type="submit" class="task-form-btn">Create Task</button>
